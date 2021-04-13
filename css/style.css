@@ -1,0 +1,151 @@
+/*pseudo elements*/
+/*.test1::before {
+	content: 'lesson7';
+	color: red;
+	background-color: yellow;
+	font-size: 25px;
+}
+*/
+.test1::before {
+/*	content: url(../images/smiley.gif); --ზომებს ვერ შევცლით*/
+
+  content: ' ';
+  background: url(../images/smiley.gif);
+  height: 30px;
+  width: 50px;
+  background-repeat:no-repeat;
+  background-position: center;
+  display:inline-block;
+}
+/*.test1::after {
+	content: '\26D4';
+}*/
+
+.test1::after {
+	content: ' ';
+	width: 2px;
+	height: 26px;
+	background-color: red;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.read {
+	font-size: 14px;
+	color: #FF7A00;
+	text-transform: uppercase;
+}
+
+.read::after {
+	content: ' ';
+	width: 47px;
+	height: 4px;
+	background-color: #FF7A00;
+	display: inline-block;
+	margin-left: 18px;
+}
+
+/*end pseudo elements*/
+
+
+/*flex*/
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	background-color: yellow;
+}
+.section-bg {
+	background-color: #363E97;
+}
+.left-video {
+	width: 300px;
+	height: 320px;
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*margin-right: 30px;*/
+}
+.right-video {
+	width: 300px;
+	height: 320px;
+	background-color: lightblue;
+}
+.mesame-blocki {
+	width: 300px;
+	height: 320px;
+	background-color: green;
+}
+.video-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+/*section#2*/
+.section2-bg {
+	background-color: #E6E6E6;
+}
+.blocks-wraper {
+	display: flex;
+	justify-content: space-between;
+}
+.left-block {
+	width: 570px;
+	background-color: lightblue;
+	/*margin-right: 29px;*/
+}
+.right-block {
+	width: 570px;
+	background-color: pink;
+}
+.image-block {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.text {
+	width: 355px;
+}
+.read-block {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 9px;
+}
+
+
+/*h-w example*/
+.container-block {
+	width: 1171px;
+	margin: 0 auto;
+}
+.imge-wraper {
+	width: 371px;
+	height: 374px;
+	background-color: pink;
+}
+.line-1 {
+	display: flex;
+	justify-content: space-between;
+}
+.line-2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.icon {
+
+	width: 88px;
+	height: 88px;
+	background-color: #325DFF;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.imge-wraper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

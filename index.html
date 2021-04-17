@@ -2,59 +2,60 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pseudo elements & Display Flex</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 </head>
 <body>
-	<!-- pseudo elements -->
-	<!-- <p class="test1"> test </p>
+	<header class="bg-header">
+		<div class="navigation">
+			<a class="logo" href="">LOGO</a>
+			<nav>
+				<ul class="nav-ul">
+					<li> <a class="nav-a" href="#"> Home</a> </li>
+					<li> <a class="nav-a" href="#"> About</a> </li>
+					<li> <a class="nav-a" href="#"> Contact</a> </li>
+				</ul>
+			</nav>
+		</div>
 
-	<a class="read" href="#"> read more </a>
- -->
+		<h1 class="title"> Lorem Ipsum </h1>
+	</header>
 
- <!-- display flex -->
-	<section class="section-bg">
-		<div class="container">
-			<h3> VIDEOS | view all videos </h3>
-			<div class="video-wraper">
-				<div class="left-video">
-					<p> Lorem Ipsum </p>
-				</div>
-				<div class="right-video"></div>
-				<div class="mesame-blocki"></div>
+	<section>
+		<div class="container-block wraper-flex">
+			<div class="container-left"> </div>
+			<div class="container-center"></div>
+			<div class="container-right"></div>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="block-wraper-image">
+			<div class="left-wraper">
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique ullamcorper luctus. </p>
+			</div>
+			<div class="right-wraper">
+				<div class="bg-image-wraper"></div>
 			</div>
 		</div>
 	</section>
 
-	<section class="section2-bg">
-		<div class="container">
-			<h3>FEATURED | view all featured media</h3>
-			<div class="blocks-wraper">
-
-				<div class="left-block">
-					<h4>RESPONSIVE WEB DESIGN</h4>
-					<div class="image-block">
-						<img src="images/Group 261.png" alt="image">
-						<p class="text">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-					</div>
-					<div class="read-block">
-						<a href="#"> read more</a>
-					</div>
+	<section>
+		<div class="wraper">
+			<div class="left-block">
+				<div class="child-box">
+					<p class="test2"> Test 2 </p>
+					<p class="test3"> Test 3 </p>
 				</div>
-
-				<div class="right-block">
-					<h4>RESPONSIVE WEB DESIGN</h4>
-					<div class="image-block">
-						<img src="images/Group 261.png" alt="image">
-						<p class="text">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
-					</div>
-					<div class="read-block">
-						<a href="#"> read more</a>
-					</div>
-				</div>
-			</div>		
-		</div>		
+			</div>
+			<div class="right-block">
+				<p class="test"> Test </p>
+			</div>
+		</div>
 	</section>
 
 	<section>
@@ -83,24 +84,21 @@
 					<h3>Peace of Mind</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
 				</div>
-			</div>
-
-			<div class="line-2">
-				<div class="imge-wraper">
+				<div class="imge-wraper size">
 					<div class="icon">
 						<img src="images/Path 1.svg">
 					</div>
 					<h3>Peace of Mind</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
 				</div>
-				<div class="imge-wraper">
+				<div class="imge-wraper size">
 					<div class="icon">
 						<img src="images/Path 1.svg">
 					</div>
 					<h3>Peace of Mind</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare. Phasellus tristique</p>
 				</div>
-				<div class="imge-wraper">
+				<div class="imge-wraper size">
 					<div class="icon">
 						<img src="images/Path 1.svg">
 					</div>
